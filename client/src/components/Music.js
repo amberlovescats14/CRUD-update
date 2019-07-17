@@ -4,9 +4,9 @@ import axios from 'axios'
 import '../components/css/music.css'
 import { Link } from 'react-router-dom'
 const Cards = props => (
-  <Card  className=" container text-center bg-primary text-light" id="musicCard"
+  <Card   className=" container text-center bg-primary text-light" id="musicCard"
   style={{display:'flex', flexDirection: 'row', justifyContent: 'space-between'}}
-  key={props.item.key}>
+  key={props.item._id}>
   <Card.Title><h1>
   <Link to={"/details/"+props.item._id}
   style={{color: 'black', textDecoration: 'underline'}}>

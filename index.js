@@ -3,8 +3,10 @@ const mongoose = require('mongoose')
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 const Music = require('./routes/Music')
+const cors = require('cors')
 // import cookieParser 
 const app = express();
+app.use(cors())
 
 require('dotenv').config()
 
@@ -23,7 +25,7 @@ app.use(cookieParser())
 // })
 app.use('/music', Music)
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT;
 app.listen(port, () => {
   console.log(`Listening on port:${port}`);
 });
