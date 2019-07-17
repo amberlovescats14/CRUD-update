@@ -1,0 +1,13 @@
+#music {
+  background-image: url('https://cdn3.volusion.com/mtwsb.danrt/v/vspfiles/photos/STTXMON-2.jpg?1525396066');
+  background-size: cover
+}
+#ul {
+  list-style: none;
+  
+}
+#musicCard {
+  background-image: url('./tileable_wood_texture.png');
+  margin-bottom: 20px;
+  width: 40%;
+}
