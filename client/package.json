@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && mv build/index.html build/200.html && surge build ambies-lumber.surge.sh"
+    "deploy": "npm run build && mv build/index.html build/200.html && surge build amberr-lumber.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +36,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "comfortable-poison.surge.sh/music"
+  "proxy": "https://quiet-shelf-21794.herokuapp.com/music"
 }
